@@ -1,0 +1,105 @@
+/* SignUpRestaurant.css */
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #333333;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+input:focus {
+    border-color: #007bff;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.submit-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.error-message {
+    color: #d9534f;
+    background-color: #f8d7da;
+    padding: 8px;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    margin-bottom: 0.8rem;
+    font-size: 0.8rem;
+}
+.home-button {
+    width: 100%;
+    padding: 8px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+.home-button:hover {
+    background-color: #218838;
+}
+
+
+@media (max-width: 480px) {
+    .form-container {
+        padding: 0.8rem;
+    }
+
+    input {
+        font-size: 0.8rem;
+    }
+
+    .submit-button {
+        font-size: 0.8rem;
+    }
+}

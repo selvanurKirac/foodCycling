@@ -1,0 +1,98 @@
+.single-product-container {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden; /* Prevent content overflow */
+  }
+  
+  .single-product-title {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .single-product-quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .single-product-quantity button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .single-product-quantity button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .single-product-quantity button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  .single-product-quantity span {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .single-product-details {
+    margin: 20px 0;
+    line-height: 1.6;
+    word-wrap: break-word; /* Ensure long words or text wrap within the container */
+  }
+  
+  .single-product-details p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .single-product-details strong {
+    color: #333;
+  }
+  
+  .reserve-button {
+    display: block;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    transition: background-color 0.3s;
+  }
+  
+  .reserve-button:hover {
+    background-color: #218838;
+  }
+  
+  .reserve-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .reserve-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
